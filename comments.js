@@ -4,7 +4,7 @@
 // 3. Create a route to handle GET requests to /comments
 // 4. Send a response with comments JSON data
 // 5. Start the server on port 3000
-const express = require('express');
+import express from 'express';
 const app = express();
 
 app.get('/comments', (req, res) => {
