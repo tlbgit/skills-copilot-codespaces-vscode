@@ -1,5 +1,5 @@
 function skillsMember() {
-    const member = {
+    var member = {
         name: 'John Doe',
         age: 30,
         skills: ['JS', 'HTML', 'CSS'],
